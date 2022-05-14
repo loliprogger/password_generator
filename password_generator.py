@@ -11,7 +11,7 @@ def generation(chars_string, password_length, service_name):
     
     password_txt = open("/Users/internet/Документы/python/password_generator/password.txt", "a+")
     password_txt.write('\n')
-    password_txt.write(final, )
+    password_txt.write(final)
     password_txt.close()
 
     return "Your passwor in 'passwords.txt'"
